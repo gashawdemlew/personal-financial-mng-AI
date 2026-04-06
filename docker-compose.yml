@@ -1,0 +1,66 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8020:8020"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      DB_BACKEND: ${DB_BACKEND}
+      DATABASE_URL: ${DATABASE_URL}
+      FINANCE_DATABASE_URL: ${FINANCE_DATABASE_URL}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      CHROMA_PERSIST_DIR: ${CHROMA_PERSIST_DIR:-/app/data/chroma}
+      CHROMA_ANONYMIZED_TELEMETRY: ${CHROMA_ANONYMIZED_TELEMETRY:-false}
+      TTS_OUTPUT_DIR: ${TTS_OUTPUT_DIR:-/app/data/tts}
+      CHAT_DAILY_LIMITS: ${CHAT_DAILY_LIMITS}
+      VLLM_URL: ${VLLM_URL}
+      VISION_CHAT_URL: ${VISION_CHAT_URL}
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GEMINI_STT_MODEL: ${GEMINI_STT_MODEL}
+      GEMINI_TTS_MODEL: ${GEMINI_TTS_MODEL}
+      GEMINI_TTS_VOICE: ${GEMINI_TTS_VOICE}
+    volumes:
+      - ./data:/app/data
+      - model_cache:/root/.cache
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+  model_cache:

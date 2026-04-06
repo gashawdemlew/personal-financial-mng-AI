@@ -1,0 +1,622 @@
+{
+    "usecase_id": "financial-guide",
+    "user_id": "user_123",
+    "transactions": [
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 17000,
+            "Balance": 17000,
+            "transaction date": "2025-01-03",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 3500,
+            "Balance": 3500,
+            "transaction date": "2025-01-04",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 5000,
+            "Balance": 12000,
+            "transaction date": "2025-01-05",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 420,
+            "Balance": 3080,
+            "transaction date": "2025-01-07",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 850,
+            "Balance": 2230,
+            "transaction date": "2025-01-10",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1000,
+            "Balance": 11000,
+            "transaction date": "2025-01-14",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 17000,
+            "Balance": 28000,
+            "transaction date": "2025-04-03",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 4200,
+            "Balance": 6430,
+            "transaction date": "2025-04-04",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 5200,
+            "Balance": 22800,
+            "transaction date": "2025-04-05",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 510,
+            "Balance": 5920,
+            "transaction date": "2025-04-08",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 980,
+            "Balance": 4940,
+            "transaction date": "2025-04-11",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1150,
+            "Balance": 21650,
+            "transaction date": "2025-04-15",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 2200,
+            "Balance": 23850,
+            "transaction date": "2025-04-22",
+            "transaction narration": "freelance",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1200,
+            "Balance": 3740,
+            "transaction date": "2025-04-25",
+            "transaction narration": "shopping",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 17500,
+            "Balance": 41350,
+            "transaction date": "2025-07-03",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 4500,
+            "Balance": 8240,
+            "transaction date": "2025-07-04",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 5400,
+            "Balance": 35950,
+            "transaction date": "2025-07-05",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 600,
+            "Balance": 7640,
+            "transaction date": "2025-07-06",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1100,
+            "Balance": 6540,
+            "transaction date": "2025-07-10",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1200,
+            "Balance": 34750,
+            "transaction date": "2025-07-14",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 2000,
+            "Balance": 32750,
+            "transaction date": "2025-07-21",
+            "transaction narration": "education",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 700,
+            "Balance": 5840,
+            "transaction date": "2025-07-24",
+            "transaction narration": "health",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 17500,
+            "Balance": 50250,
+            "transaction date": "2025-10-03",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 5000,
+            "Balance": 10840,
+            "transaction date": "2025-10-04",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 5600,
+            "Balance": 44650,
+            "transaction date": "2025-10-05",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 650,
+            "Balance": 10190,
+            "transaction date": "2025-10-08",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1250,
+            "Balance": 8940,
+            "transaction date": "2025-10-11",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1350,
+            "Balance": 43300,
+            "transaction date": "2025-10-15",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 2600,
+            "Balance": 45900,
+            "transaction date": "2025-10-20",
+            "transaction narration": "freelance",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1600,
+            "Balance": 7340,
+            "transaction date": "2025-10-23",
+            "transaction narration": "shopping",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 18000,
+            "Balance": 63900,
+            "transaction date": "2026-01-03",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 5200,
+            "Balance": 12540,
+            "transaction date": "2026-01-04",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 6000,
+            "Balance": 57900,
+            "transaction date": "2026-01-05",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 700,
+            "Balance": 11840,
+            "transaction date": "2026-01-06",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1300,
+            "Balance": 10540,
+            "transaction date": "2026-01-09",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1450,
+            "Balance": 56450,
+            "transaction date": "2026-01-13",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 2300,
+            "Balance": 54150,
+            "transaction date": "2026-01-18",
+            "transaction narration": "education",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 900,
+            "Balance": 9640,
+            "transaction date": "2026-01-22",
+            "transaction narration": "health",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 18000,
+            "Balance": 72150,
+            "transaction date": "2026-03-01",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 6200,
+            "Balance": 65950,
+            "transaction date": "2026-03-03",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 5400,
+            "Balance": 15040,
+            "transaction date": "2026-03-04",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 760,
+            "Balance": 14280,
+            "transaction date": "2026-03-06",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1420,
+            "Balance": 12860,
+            "transaction date": "2026-03-10",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1500,
+            "Balance": 64450,
+            "transaction date": "2026-03-14",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 2800,
+            "Balance": 67250,
+            "transaction date": "2026-03-18",
+            "transaction narration": "freelance",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1750,
+            "Balance": 11110,
+            "transaction date": "2026-03-22",
+            "transaction narration": "shopping",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 650,
+            "Balance": 10460,
+            "transaction date": "2026-03-27",
+            "transaction narration": "health",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 22000,
+            "Balance": 89250,
+            "transaction date": "2026-07-01",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 4000,
+            "Balance": 14460,
+            "transaction date": "2026-07-02",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 6500,
+            "Balance": 82750,
+            "transaction date": "2026-07-03",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 450,
+            "Balance": 14010,
+            "transaction date": "2026-07-04",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 900,
+            "Balance": 13110,
+            "transaction date": "2026-07-06",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1200,
+            "Balance": 81550,
+            "transaction date": "2026-07-10",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 3000,
+            "Balance": 84550,
+            "transaction date": "2026-07-15",
+            "transaction narration": "freelance",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 700,
+            "Balance": 12410,
+            "transaction date": "2026-07-17",
+            "transaction narration": "shopping",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 350,
+            "Balance": 12060,
+            "transaction date": "2026-07-21",
+            "transaction narration": "health",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 2000,
+            "Balance": 82550,
+            "transaction date": "2026-07-25",
+            "transaction narration": "education",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 22000,
+            "Balance": 104550,
+            "transaction date": "2026-08-01",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 5000,
+            "Balance": 17060,
+            "transaction date": "2026-08-02",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 6500,
+            "Balance": 98050,
+            "transaction date": "2026-08-03",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 500,
+            "Balance": 16560,
+            "transaction date": "2026-08-05",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1100,
+            "Balance": 15460,
+            "transaction date": "2026-08-08",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1250,
+            "Balance": 96800,
+            "transaction date": "2026-08-12",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 950,
+            "Balance": 14510,
+            "transaction date": "2026-08-16",
+            "transaction narration": "shopping",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 2500,
+            "Balance": 99300,
+            "transaction date": "2026-08-20",
+            "transaction narration": "freelance",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 600,
+            "Balance": 13910,
+            "transaction date": "2026-08-22",
+            "transaction narration": "health",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1800,
+            "Balance": 97500,
+            "transaction date": "2026-08-27",
+            "transaction narration": "education",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 22000,
+            "Balance": 119500,
+            "transaction date": "2026-09-01",
+            "transaction narration": "salary",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 4500,
+            "Balance": 18410,
+            "transaction date": "2026-09-02",
+            "transaction narration": "wallet topup",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 6500,
+            "Balance": 113000,
+            "transaction date": "2026-09-03",
+            "transaction narration": "rent",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 550,
+            "Balance": 17860,
+            "transaction date": "2026-09-04",
+            "transaction narration": "transport",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1200,
+            "Balance": 16660,
+            "transaction date": "2026-09-07",
+            "transaction narration": "food",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1350,
+            "Balance": 111650,
+            "transaction date": "2026-09-11",
+            "transaction narration": "utilities",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "credit",
+            "Transaction amount": 3200,
+            "Balance": 114850,
+            "transaction date": "2026-09-15",
+            "transaction narration": "freelance",
+            "linked_account_id": "acct_001"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 1400,
+            "Balance": 15260,
+            "transaction date": "2026-09-18",
+            "transaction narration": "shopping",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 700,
+            "Balance": 14560,
+            "transaction date": "2026-09-22",
+            "transaction narration": "health",
+            "linked_account_id": "acct_002"
+        },
+        {
+            "Transaction type": "debit",
+            "Transaction amount": 2200,
+            "Balance": 112650,
+            "transaction date": "2026-09-26",
+            "transaction narration": "education",
+            "linked_account_id": "acct_001"
+        }
+    ]
+}
